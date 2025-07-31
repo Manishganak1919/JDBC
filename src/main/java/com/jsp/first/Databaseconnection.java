@@ -15,7 +15,7 @@ public class Databaseconnection {
             // Step 2: Establish the database connection
             String url = "jdbc:mysql://localhost:3306/jdbc-first-database";
             String userName = "root";
-            String password = "Your_root_password";
+            String password = "Manish12345@";
             Connection con = DriverManager.getConnection(url, userName, password);
 
             // Step 3: Create a Statement object
